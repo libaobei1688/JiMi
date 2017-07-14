@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" href="css/service.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/service.js"></script>
+</head>
+<body>
+    <div class="box">
+        <div class="left">
+            <div class="left_top">
+                <h2>京东咚咚</h2>
+                <dl>
+                    <dt>me</dt>
+                    <dd><img src="images/service7.jpg" alt=""><img src="images/service8.jpg" alt=""></dd>
+                </dl>
+                <form>
+                    <input type="submit" class="btn" value="">
+                    <input type="text" placeholder="搜索最近联系人" class="search">
+                </form>
+            </div>
+            <div class="left_bot">
+                <ul>
+                    <li>京东客服</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right_top">
+                <h3>京东客服</h3>
+            </div>
+            <div class="right_center">
+                <div class="inner" id="inner"></div>
+                <div class="send">
+                    <ul>
+                        <li class="one"></li>
+                        <li class="two"></li>
+                        <li class="three">满意度评价</li>
+                        <li class="last"><a href="##">怎么发截图？</a></li>
+                    </ul>
+                    <textarea id="text"></textarea>
+                    <div class="btn">
+                        <button id="btn">发送</button>
+                    </div>
+                </div>
+            </div>
+            <div class="order">
+                <ul>
+                    <li class="ac">我的订单</li>
+                    <li>常见问题</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

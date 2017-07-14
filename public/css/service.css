@@ -1,0 +1,60 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,input,textarea{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+input,button{outline:none}
+img{display:block;border:0;}
+body{font-family:arial,'微软雅黑','宋体'}
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after { display: table; line-height: 0; content: ""; }
+.clearfix:after { clear: both;}
+
+.box{width: 1200px;height: 570px;border: 1px solid #ccc;margin:170px auto;background: #fafafa;}
+/*左侧区域*/
+.box>.left{width: 220px;float: left;border-right: 1px solid #ccc;}
+.left .left_top{height: 133px;background: #e45050;padding-left: 10px;}
+.left .left_top h2{font-size: 16px;color: #933737;line-height: 28px;}
+.left .left_top dl{padding-left: 58px;background: url(../images/service6.jpg) no-repeat left 4px ;}
+.left .left_top dt{line-height: 32px;color: #fff;font-size:18px;}
+.left .left_top dd{height: 24px;}
+.left .left_top dd img{float: left;margin-right: 4px;}
+.left .left_top form{padding: 10px 0}
+.left .left_top input{float: left;border: none;height: 28px;background: #fff;font-size:12px;line-height: 28px }
+.left .left_top .btn{border-radius: 12px 0 0 12px ;width: 22px;background: url(../images/service9.jpg) no-repeat right center;background-color:#fff;cursor: pointer;}
+.left .left_top .search{border-radius: 0 12px 12px 0;width: 148px;padding: 0 14px;font-size: 12px;}
+.left_bot{background: #363e47;height: 437px;}
+.left_bot li{height: 60px ;padding-left: 55px;line-height: 36px;color:#fff;font-size: 12px;background:url(../images/service5.jpg)  no-repeat 8px 10px;background-color: #2f363e;}
+/*右上标题*/
+.right .right_top{line-height: 49px;height: 49px;border-bottom: 1px solid #ccc;padding-left: 46px;float: left;width: 933px;background: url(../images/service4.jpg) no-repeat 11px 15px ;}
+.right .right_top h3{font-size: 16px;font-weight: normal;position: relative;}
+.right .right_top h3::after{content: '';width: 8px ;height: 8px;border-radius: 4px ;background:#70d672;position: absolute;left: 71px;top: 19px;}
+/*中间内容区域*/
+.right_center{width: 637px;float: left;border-right: 1px solid #ccc;}
+.right_center .inner{height: 365px;border-bottom: 1px solid #ccc;overflow-y: scroll; padding: 20px 17px 10px;}
+.inner div{min-height: 37px;margin-top: 20px;}
+.inner span{padding:4px 10px;font-size: 12px;line-height: 29px;display: block;float: right; background: #d8e8f9;border-radius: 7px;position: relative;max-width: 500px; word-wrap:break-word; word-break:normal;}
+.inner span:before{content:'me';position: absolute;color: #cccccc;top:-27px;right: 0;}
+.inner span:after{content:'';position: absolute;right: -7px ;top: 5px;background: url(../images/service2.jpg) no-repeat ;width: 7px;height: 14px;}
+.inner span.left{float: left;background: #e8e8e8;}
+.inner span.left:before{content:'京东客服';position: absolute;color: #cccccc;top:-27px;left: 0;}
+.inner span.left:after{content:'';position: absolute;left: -7px ;top: 5px;background: url(../images/service3.jpg) no-repeat ;width: 7px;height: 14px;}
+.inner span p{line-height: 36px;}
+.inner span li{line-height: 29px;height: 29px;padding-left: 25px;background: url(../images/service10.jpg) no-repeat 4px 6px;}
+.inner span a{color: #336699;}
+.inner span a:hover{text-decoration: underline}
+/*文本框及发送区域*/
+.right_center .send{height: 124px;font-size: 12px;display: block;position: relative;}
+.right_center .send ul{height: 31px;}
+.right_center .send li{float: left;line-height: 31px;height: 31px}
+.right_center .send .one{width: 29px;background: url(../images/service11.jpg) no-repeat right center;}
+.right_center .send .two{width: 31px;background: url(../images/service12.jpg) no-repeat right center;}
+.right_center .send .three{padding-left: 41px;background: url(../images/service13.jpg) no-repeat 15px center;color: #fc5d60;}
+.right_center .send .last{padding:0 10px 0 21px;float: right;background: url(../images/service10.jpg) no-repeat left center; }
+.right_center .send .last a{color: #3897e7;}
+.right_center .send textarea{width: 515px;height: 80px;resize: none;padding:0 110px 0 10px;border: none;outline: none;font-size: 14px;line-height: 20px;background: #fafafa}
+.right_center .send .btn{width: 91px;height: 36px;cursor: pointer;background: url(../images/service1.jpg) no-repeat 77px 16px;background-color: #e66464;position: absolute;bottom:13px;right: 18px;}
+.send .btn button{width: 74px;border:none;border-right: 1px solid #f0a2a2;line-height: 36px;height: 36px;background: transparent;color: #fff;cursor: pointer;}
+/*右侧订单*/
+.order{width: 339px;height: 520px;float: left;background: url(../images/none_03.jpg) no-repeat 128px 136px ;}
+.order ul{height: 35px;background: #eee;font-size: 12px;color: #333;}
+.order li{float: left;width: 85px;height: 35px;text-align: center;line-height: 29px;border-top: 3px solid transparent;border-bottom: 3px solid transparent;box-sizing: border-box;cursor: pointer;}
+.order li.ac{color:#e66464;border-top: 3px solid #e66464;background: #fff;}
